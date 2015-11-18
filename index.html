@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PublicaMundi</title>
+    <meta name="description" content="Scalable and Reusable Open GeoSpatial Data">
+    <meta name="author" content="Angelos Tzotsos">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="reveal.js/css/reveal.min.css">
+    <!--link rel="stylesheet" href="reveal.js/css/print/pdf.css"-->
+    <link rel="stylesheet" href="reveal.js/css/theme/publicamundi.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+       <!-- <section>
+        <a class="image" href="http://publicamundi.eu" target="_blank">
+          <img width="1200" src="imgs/pm-back.png"></a>
+        </section>-->
+        
+    <section>
+      <h1>PublicaMundi</h1>
+      <h3>Scalable and Reusable Open Geospatial Data</h3>
+      <br/>
+      <br/>
+      <a class="image" href="http://publicamundi.eu" target="_blank">
+      <img width="400" src="imgs/publicamundi_logo_full.png">
+      </a>
+    </section>
+
+    <section>
+      <h2>PublicaMundi Vision</h2>
+      <br/>
+      <ul>
+        <li>Open Geospatial Data Catalogue:
+          <ul>
+            <li>Geospatial metadata and data as first-class citizens</li>
+            <li>Simplifies publishing, discovery, and reuse</li>
+            <li>Automates provision of interactive maps and value added services (OGC, JS data/mapping APIs) for geospatial data</li>
+          </ul>
+        </li>
+        <li>Open Data Catalogue:
+          <ul>
+            <li>Full support for generic purpose open data publishing</li>
+          </ul>
+        </li>
+        <li>INSPIRE-compatible SDI:
+          <ul>
+            <li>Full OGC compliance</li>
+          </ul>
+        </li>
+      </ul>
+      <br/>
+    </section>
+
+
+
+    <section>
+      <h2>Contact us</h2>
+      <br/>
+      <br/>
+      <h3><a href="http://publicamundi.eu">http://publicamundi.eu</a></h3>
+      <br/>
+      <table style="margin: 0px auto;">
+        <tr>
+      <td style="vertical-align:middle"><a class="image" href="http://publicamundi.eu" target="_blank">
+      <img width="400" src="imgs/publicamundi_logo_full.png">
+        </a></td></tr>
+      </table>
+    </section>
+        
+      </div>
+    </div>
+    <script src="reveal.js/lib/js/head.min.js"></script>
+    <script src="reveal.js/js/reveal.min.js"></script>
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+      
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+      
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+              { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+              // { src: 'reveal.js/plugin/leap/leap.js', async: true }
+              // { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+              // { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+      });
+      
+    </script>
+  </body>
+</html>
